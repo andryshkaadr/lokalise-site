@@ -1,0 +1,172 @@
+html, body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+:root {
+    /* color */
+    --color-white: #fff;
+    --color-black: #000;
+    --color-ccc: #ccc;
+    --color-orange: #FF6336;
+    --color-transparent-black: rgba(0, 0, 0, 0.50);
+
+    /* font-size */
+    --fs-15: 15px;
+    --fs-16: 16px;
+    --fs-h1: 65px;
+    --fs-h4: 25px;
+
+    /* font-weight */
+    --fw-normal: 400;
+    --fw-600: 600;
+}
+
+.flex {
+    display: flex;
+}
+
+.ai-center {
+    align-items: center;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.fd-column {
+    flex-direction: column;
+}
+
+.jc-sb {
+    justify-content: space-between;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1290px;
+    padding: 0px 20px;
+}
+
+.main-page {
+    min-height: 100vh;
+}
+
+.nav-back {
+    background-color: var(--color-white);
+    border-bottom: 1px solid var(--color-ccc);
+}
+
+nav {
+    gap: 20px 0px;
+    padding: 25px 0px;
+}
+
+.left-nav-side {
+    gap: 20px 50px;
+}
+
+.logo img {
+    max-width: 130px;
+    height: auto;
+    object-fit: cover;
+}
+
+.nav-links {
+    gap: 10px 40px;
+}
+
+.nav-link{
+    color: var(--color-black);
+    font-size: var(--fs-15);
+    font-weight: var(--fw-normal);
+    transition: all 0.1s;
+    padding: 10px 10px;
+}
+
+.nav-link:hover {
+    color: #505050;
+}
+
+.buttons {
+    gap: 10px 10px;
+}
+
+.btn-1 {
+    text-align: center;
+    min-width: 120px;
+    color: var(--color-black);
+    font-size: var(--fs-16);
+    font-weight: var(--fw-600);
+    padding: 15px 0px;
+    background-color: var(--color-white);
+    border: 1px solid var(--color-transparent-black);
+    transition: all 0.1s;
+}
+
+.btn-1:hover {
+    border: 1px solid var(--color-black);
+}
+
+.btn-2 {
+    text-align: center;
+    min-width: 120px;
+    color: var(--color-white);
+    font-size: var(--fs-16);
+    font-weight: var(--fw-600);
+    padding: 15px 0px;
+    background-color: var(--color-orange);
+    transition: all 0.1s;
+}
+
+.btn-2:hover {
+    background-color: #ff4411;
+}
+
+.main-back {
+    background-color: var(--color-white);
+    flex-grow: 1;
+}
+
+.main-object {
+    padding: 30px 20px;
+    inline-size: -webkit-fill-available;
+}
+
+.main-content {
+    max-width: 550px;
+}
+
+.main-content {
+    gap: 20px;
+}
+
+.gap {
+    gap: 50px;
+}
+
+.main-content h1 {
+    color: var(--color-black);
+    font-size: var(--fs-h1);
+    font-weight: var(--fw-600);
+}
+
+.main-content p {
+    color: var(--color-black);
+    font-size: var(--fs-h4);
+    font-weight: var(--fw-normal);
+}
+
+.main-content .buttons .btn-1, .btn-2 {
+    min-width: 160px;
+}
+
+.text {
+    color: var(--color-black);
+    font-size: var(--fs-15);
+    font-weight: var(--fw-normal);
+}
+
+.main-object img {
+    width:100%;
+    object-fit:cover;
+}
