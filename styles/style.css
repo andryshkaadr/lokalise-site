@@ -120,12 +120,12 @@ nav {
 }
 
 .btn-1 {
+    display: inline-block;
     text-align: center;
-    min-width: 120px;
     color: var(--color-black);
     font-size: var(--fs-16);
     font-weight: var(--fw-600);
-    padding: 15px 0px;
+    padding: 15px 20px;
     background-color: var(--color-white);
     border: 1px solid var(--color-transparent-black);
     transition: all 0.1s;
@@ -136,12 +136,12 @@ nav {
 }
 
 .btn-2 {
+    display: inline-block;
     text-align: center;
-    min-width: 120px;
     color: var(--color-white);
     font-size: var(--fs-16);
     font-weight: var(--fw-600);
-    padding: 15px 0px;
+    padding: 15px 20px;
     background-color: var(--color-orange);
     transition: all 0.1s;
 }
@@ -338,6 +338,11 @@ h3 {
     padding-bottom: 10px;
 }
 
+.bg-blue img {
+    max-width: 310px;
+    width: 100%;
+}
+
 .bg-pancho {
     background-color: var(--color-pancho);
     padding: 90px 0px 85px 0px;
@@ -353,3 +358,18 @@ h3 {
     border-left: 1px solid var(--color-black);
 }
 
+.fullpage h2 {
+    max-width: 760px;
+    font-size: var(--fs-h1);
+}
+
+.fullpage h4 {
+    max-width: 540px;
+    font-weight: var(--fw-normal);
+}
+
+.fullpage img {
+    max-width: 1020px;
+    width: 100%;
+    object-fit: cover;
+}
